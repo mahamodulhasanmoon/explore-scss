@@ -26,6 +26,29 @@ $footer-bgColor : #4264fa;
     text-align: center;
  }
 
+//  navStyles
+
+nav{
+    margin-top: 15px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color: $text-bgColor;
+                padding: 10px;
+                transition: 0.4s;
+                &:hover{
+                    color:rgb(79, 250, 63)
+                }
+            }
+        }
+        
+    }
+}
+
  main{
     background-color: $main-bgColor;
  }

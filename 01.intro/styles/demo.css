@@ -12,6 +12,26 @@ header {
   text-align: center;
 }
 
+nav {
+  margin-top: 15px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: 0.4s;
+}
+nav ul li a:hover {
+  color: rgb(79, 250, 63);
+}
+
 main {
   background-color: #98e969;
 }
