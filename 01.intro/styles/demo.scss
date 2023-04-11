@@ -1,3 +1,15 @@
+ // variable declaration
+
+$header-bgColor :#ffab73;
+$text-bgColor :#fff;
+$main-bgColor : #98e969;
+$footer-bgColor : #4264fa;
+
+
+
+
+
+ 
  /**
  reset code
  */
@@ -9,6 +21,18 @@
     
  }
 
+ header{
+    background: $header-bgColor;
+    text-align: center;
+ }
+
+ main{
+    background-color: $main-bgColor;
+ }
+
+ footer{
+    background-color: $footer-bgColor;
+ }
 
 
 

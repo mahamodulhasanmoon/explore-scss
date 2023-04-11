@@ -5,4 +5,17 @@ reset code
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  background: #ffab73;
+  text-align: center;
+}
+
+main {
+  background-color: #98e969;
+}
+
+footer {
+  background-color: #4264fa;
 }/*# sourceMappingURL=demo.css.map */
