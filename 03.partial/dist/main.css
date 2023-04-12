@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+header {
+  background-color: rgb(241, 137, 10);
+  padding: 1rem;
+}
+
+main {
+  background-color: orange;
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */
